@@ -19,7 +19,7 @@
     <body>
         
              
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark hidden">
             <div class="container p-3">
                 <a class="navbar-brand gooey" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -37,10 +37,10 @@
         <div class="container first">
             
                 <div class="text-left mt-5 p-lg-5">
-                    <h5 class="">Hello, I am</h5>
-                    <h1 class="pt-3 name ">Antonis Kadoglou.</h1>
-                    <h3 class="">I bring your website to life.</h3>
-                    <h3 class="lead mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem iste ducimus necessitatibus? Fugit voluptates necessitatibus reprehenderit fugiat quae sit ipsam ipsum perspiciatis laborum labore, atque nam illum ab amet voluptate.</h3>
+                    <h5 class="hidden">Hello, I am</h5>
+                    <h1 class="pt-3 name hidden ">Antonis Kadoglou.</h1>
+                    <h3 class="hidden">I bring your website to life.</h3>
+                    <h3 class="lead mt-5 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem iste ducimus necessitatibus? Fugit voluptates necessitatibus reprehenderit fugiat quae sit ipsam ipsum perspiciatis laborum labore, atque nam illum ab amet voluptate.</h3>
                 </div>
                 
                 <div class="col-12 d-md-none d-sm-block mt-5 p-5 text-center">
@@ -53,7 +53,7 @@
                 </div>
                 <div class="m-contact d-none d-md-block">
                     <div class="row ">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled hidden">
                             <li><a href="https://github.com/tonykapa" aria-label="GitHub" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" ><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
                             <li><a href="https://www.instagram.com/antonis_kadoglou/" aria-label="Instagram" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><title>Instagram</title><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></li>
                             <li><a href="https://www.linkedin.com/in/antonios-kadoglou-b2b975196/   " aria-label="Linkedin" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" ><title>LinkedIn</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li>
@@ -68,19 +68,16 @@
         <section class="container about " data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="0">
             <div class="column p-lg-5 p-m-2 mt-5" >
 
-                <div class="col-lg-4 about-photo mt-5 numbered-heading ms-md-5" id="about-inner">
+                <div class="col-lg-4 about-photo mt-5 numbered-heading ms-md-5 hidden" id="about-inner">
                     <h5 style="font-size: xxx-large;">[0] About</h5><hr>
                     <span class="about-head p-2">Let me tell you about myself </span>
-                    
-                        
-                                        
                 </div>
 
                 <div class="m-auto position-relative row p-5 container justify-content-md-around" id="about-ul" style="color:white;">
-                    <img src="https://picsum.photos/380" style="width:500px;height:auto;">
-                    <h3 class="text-center fs-2 mt-5 loading"><span>Front &amp; Back End <br>Web Developer</span></h3>
+                    <img class="hidden" src="https://picsum.photos/380" style="width:500px;height:auto;">
+                    <h3 class="text-center fs-2 mt-5 loading hidden"><span>Front &amp; Back End <br>Web Developer</span></h3>
                     
-                        <ul class="list-group ul1 list-group-flash col-md-4 mt-5">
+                        <ul class="list-group ul1 list-group-flash col-md-4 mt-5 hidden">
                             <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
                             </svg> Age : 27</li>
@@ -92,7 +89,7 @@
                             </svg> email : antoniskad@hotmail.com</li>
                             
                         </ul>
-                        <ul class="list-group ul2 list-group-flash col-md-4 mt-md-5">
+                        <ul class="list-group ul2 list-group-flash col-md-4 mt-md-5 hidden">
                             <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
                             </svg> Birthday : 11 Feb 1995</li>
@@ -105,14 +102,14 @@
                         </ul>  
                     
 
-                    <h3 class="col-lg-7 lead mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur itaque vel, deserunt iusto deleniti aliquam explicabo. Dolores officiis minima, cumque nesciunt ipsum ipsa fugit omnis quidem, quibusdam, aspernatur saepe dolor!
+                    <h3 class="col-lg-7 lead mt-5 hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur itaque vel, deserunt iusto deleniti aliquam explicabo. Dolores officiis minima, cumque nesciunt ipsum ipsa fugit omnis quidem, quibusdam, aspernatur saepe dolor!
                         , vel..</h3>
                     
                 </div>
 
-                <span class="about-head col-lg-4 m-2 p-2">Technologies I’ve been working with recently </span>
+                <span class="about-head col-lg-4 m-2 p-2 hidden">Technologies I’ve been working with recently </span>
                 
-                <ul class="skill-list ms-5 mt-5">
+                <ul class="skill-list ms-5 mt-5 hidden">
                     <li>Javascript (ES6+)</li>
                     <li>Wordpress</li>
                     <li>PHP/SQL</li>
@@ -120,24 +117,19 @@
                     <li>Prestashop</li>
                     <li>Bootstrap</li>
                 </ul>
-                 
-                 
-                  
-                  
-                    
-            </div>
+              </div>
         </section>
 
         <section class="container projects" data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="0" id="projects">
             <div class="column p-lg-5 p-m-2 mt-15" >
 
-                <div class="col-lg-4 about-photo mt-5 numbered-heading ms-md-5" id="about-inner">
+                <div class="col-lg-4 about-photo mt-5 numbered-heading ms-md-5 hidden" id="about-inner">
                     <h5 style="font-size: xxx-large;">[1] Projects</h5><hr>
                     <span class="about-head p-2"> Things I've made </span>
                 </div>
 
                 <ul class="col-12 list-unstyled">
-                    <li class="mt-5">
+                    <li class="mt-5 hidden">
                         <a href="http://www.kadoglou.net/" class="work-item work-item-1">
                             <div class="work-mask"></div>
                             <div class="work-item-text">
@@ -149,7 +141,7 @@
                         </a>
                     </li>
 
-                    <li class="mt-5">
+                    <li class="mt-5 hidden">
                         <a href="https://github.com/tonykapa/RecommendationWebService/tree/Recommendation-Web-Service/testmodule" class="work-item work-item-2">
                             <div class="work-mask work-mask-2"></div>
                             <div class="work-item-text work-item-text-2">
@@ -161,7 +153,7 @@
                         </a>
                     </li>
 
-                    <li class="mt-5">
+                    <li class="mt-5 hidden">
                         <a href="http://blog.etoy.gr/" class="work-item work-item-3">
                             <div class="work-mask work-mask-3"></div>
                             <div class="work-item-text work-item-text-3">
@@ -172,31 +164,21 @@
                             </div>
                         </a>
                     </li>
-
-                    
-
                 </ul>
-
-
             </div>
          </section>        
         
-        
-
-       
-
-        
-        <section class="container" data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="0" id="contact">
+      <section class="container" data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="0" id="contact">
             <div class="column p-lg-5 p-m-2 mt-15" > 
-                <div class="col-lg-4 about-photo mt-5 numbered-heading ms-md-5" id="about-inner">
+                <div class="col-lg-4 about-photo mt-5 numbered-heading ms-md-5 hidden" id="about-inner">
                     <h5 style="font-size: xxx-large;">[2] Contact</h5><hr>
                     <span class="about-head p-2"> Let's Talk </span>
                 </div>
 
                 <div class="col-12 contact-inner">
-                    <h1>Have a question ?</h1>
-                    <p class="col-md-5 text-center"><br>Whether you want to ask me something or just want to say hi, I’ll try my best to get back to you!</p>
-                    <a href="mailto:antoniskad@hotmail.com" class="mt-5">
+                    <h1 class="hidden">Have a question ?</h1>
+                    <p class="col-md-5 text-center hidden"><br>Whether you want to ask me something or just want to say hi, I’ll try my best to get back to you!</p>
+                    <a href="mailto:antoniskad@hotmail.com" class="mt-5 hidden">
                         <button data-text="Awesome" class="button">
                             <span class="actual-text">&nbsp;email&nbsp;me&nbsp;</span>
                             <span class="hover-text" aria-hidden="true">&nbsp;email&nbsp;me&nbsp;</span>
@@ -205,31 +187,13 @@
                 </div>
                 
             </div>
-
-            
-
-
-            
         </section>
         
-        
-
-        
         <footer>
-            <h3 class="text-center lead mt-5">Designed and Built By Antonis Kadoglou</h3>
+            <h3 class="text-center lead mt-5 hidden">Designed and Built By Antonis Kadoglou</h3>
         </footer>
 
-        
-
-       
-        
-
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  
         <script src="js/scripts.js"></script>
-        
-
-        
-    </body>
+   </body>
 </html>
